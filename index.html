@@ -16,10 +16,8 @@
 				<img src="images/happy.png" alt="Winner">
 				<h4>You popped all 100 balloons</h4>
 				<p>You are a winner!</p>
-				<p>Play again?</p>
-				<button class="restart">Yes</button>
-				<button class="cancel">No</button>
 			</div>
+			
 			<div class="total-wrapper lose">
 				<h4>Bad Luck!</h4>
 				<img src="images/sad.png" alt="Loser">
@@ -35,8 +33,17 @@
 		<h2>Are you ready to start?</h2>
 		<button class="start-game-button">Start</button>
 	</div>
+	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="/__/firebase/7.14.6/firebase-app.js"></script>
 
-	<audio src="sounds/bg-music.mp3" class="bg-music" loop></audio>
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="/__/firebase/7.14.6/firebase-analytics.js"></script>
+
+	<!-- Initialize Firebase -->
+	<script src="/__/firebase/init.js"></script>
+	
 	<script src="js/script.js"></script>
 </body>
 </html>
